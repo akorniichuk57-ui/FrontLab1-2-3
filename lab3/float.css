@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+
+    width: 70%;
+    max-width: 850px;
+    aspect-ratio: 850 / 640;
+
+    margin: 60px auto;
+}
+
+/* ЗЕЛЕНИЙ БЛОК
+   250 / 850 = 29.41%
+*/
+.green {
+    float: left;
+
+    width: 29.41%;
+    height: 85.94%;
+
+    background-color: #82edaa;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ПРАВА ЧАСТИНА
+   600 / 850 = 70.59%
+*/
+.right {
+    float: left;
+
+    width: 70.59%;
+    height: 100%;
+}
+
+/* СИНІЙ
+   50 / 640 = 7.81%
+*/
+.blue {
+    float: left;
+
+    width: 100%;
+    height: 7.81%;
+
+    background-color: #5ec8e5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ЖОВТИЙ
+   350 / 600 = 58.33%
+*/
+.yellow {
+    float: left;
+
+    width: 58.33%;
+    height: 78.125%;
+
+    background-color: #f4f38c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ФІОЛЕТОВИЙ
+   250 / 600 = 41.67%
+*/
+.purple {
+    float: left;
+
+    width: 41.67%;
+    height: 92.19%;
+
+    background-color: #df72e8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* БЕЖЕВИЙ
+   600 / 850 = 70.59%
+*/
+.bottom {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 70.59%;
+    height: 14.06%;
+
+    background-color: #f5dca4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

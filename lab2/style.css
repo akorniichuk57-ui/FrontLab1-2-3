@@ -1,0 +1,53 @@
+
+.variant-table {
+    font-family: sans-serif;
+    width: 810px;
+    height: 180px;
+    border-collapse: collapse;
+}
+
+.variant-table td {
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+}
+
+
+.first-row {
+    background-color: #098f8f;
+}
+
+
+.second-row {
+    background-color: #f5f509;
+}
+
+.first-row:hover {
+    background-color: #f5f509;
+}
+
+.second-row:hover {
+    background-color: #098f8f;
+}
+
+
+
+.figure {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    left: 100px;
+    top: 50px;
+}
+
